@@ -10,7 +10,7 @@ class UserModel {
   String sex;
   String phone;
 
-  UserModel({this.id, this.name, this.email});
+  UserModel({this.id, this.name, this.email,this.phone,this.nickname,this.sex});
 
   UserModel.fromDocumentSnapshot({DocumentSnapshot documentSnapshot}) {
     id = documentSnapshot.documentID;
